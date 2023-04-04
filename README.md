@@ -1,2 +1,2 @@
-# BlinkTracker
-This application detects and track the blink rate of a person using their computer's webcam.
+# Eye Blink Detection and Alert System
+This is a Python application that uses OpenCV, dlib, and win10toast libraries to detect eye blinks and send a notification if the user has not blinked frequently enough. The application works by capturing the video feed from the user's webcam and detecting the user's eyes. It then calculates the eye aspect ratio (EAR) for both eyes and if the EAR falls below a certain threshold, it considers it a blink. If the user has not blinked frequently enough, it sends a notification to remind them to blink.
